@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "original_input_hashes": "unchanged",
+  "assignment1": {
+    "cleaning_independent_reproduction": "passed",
+    "GaussianNB_var_smoothing": 0.0,
+    "parameters_probabilities_predictions": "passed",
+    "prediction_rows": 30,
+    "test_accuracy_available": false
+  },
+  "assignment2": {
+    "LDA_solver": "svd",
+    "LDA_priors": [
+      0.5,
+      0.5
+    ],
+    "coefficient_scale": 575,
+    "weights_bias_scores_predictions": "passed",
+    "prediction_rows": 23,
+    "linear_solve_relative_residual": 6.97869175472588e-17,
+    "reported_12_decimal_coefficients_preserve_predictions": true,
+    "test_accuracy_available": false
+  },
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "1.5.3",
+    "scipy": "1.10.0",
+    "scikit-learn": "1.2.1"
+  }
+}
